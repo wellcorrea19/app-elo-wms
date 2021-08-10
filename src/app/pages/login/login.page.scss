@@ -1,0 +1,73 @@
+ion-content{
+    --background: #f1f1f1;
+    height: 100vh;
+  }
+  
+  ion-col{
+    --ion-grid-column-padding: none;
+  }
+  
+  ion-item{
+    --background: transparent;
+  }
+  
+  // Formatação telas
+  .tela_1{
+    margin: 0 25px;
+    padding-top: 5%;
+  }
+  
+  // Formatação textos
+  .text_1{
+    color: #1E51A9;
+  }
+  
+  .text_forgot{
+    color: #1E51A9;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .txt_login{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin: 0;
+  }
+  
+  // Formatação botões
+  .button_1{
+    width: 100%;
+    color: white;
+    --background: #1E51A9;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .button_2{
+    width: 100%;
+    color: white;
+    --background: black;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .show-pass{
+    color: #1E51A9;
+    position: absolute;
+    bottom: 0;
+    left: 85%;
+  }
+  
+  // Formatação inputs
+  .input_1{
+    border-bottom: 0.5px solid gray;
+    margin-bottom: 20px;
+  }
+  
+  // Formatação logo
+  .logo_img{
+    width: 58%;
+    margin: 80px auto 
+  }
+  

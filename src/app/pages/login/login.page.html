@@ -1,0 +1,28 @@
+<ion-content class="ion-no-padding">
+  <div class="tela_1">
+
+    <div>
+        <ion-img src="/assets/img/logo-wms.png" class="logo_img" ></ion-img>
+    </div>
+
+    <form [formGroup]="loginForm">
+
+      <div>
+        <ion-input class="input_1" type="usuario" placeholder="Usuario" name="usuario" formControlName="usuario" ></ion-input>
+      </div>
+
+  <!-- Função mostrar e ocultar senha -->
+      <ion-input class="input_1" placeholder="Senha" [type]="showPassword ? 'text' : 'password'" required formControlName="senha" name="senha" autocomplete="off">
+        <ion-button fill="clear" class="show-pass" (click)="mostrarSenha()">
+          <ion-icon [name] ="showPassword ? 'eye-off' : 'eye'"></ion-icon>
+        </ion-button>
+      </ion-input>
+
+      <br>
+    
+      <ion-button class="button_1" fill="clean" (click)="login()">Entrar</ion-button>
+
+    </form>
+  </div>
+
+</ion-content>
